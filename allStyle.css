@@ -1,0 +1,265 @@
+.cono22 {
+  position: relative;
+  width: 500px;
+}
+.cono22 .skill22 {
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  padding: 24px 10px;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border-radius: 8px;
+  overflow: hidden;
+  broder: 2px solid #000;
+  transition: 0.5s;
+}
+.cono22 .skill22 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+.cono22 .skill22 .name22 {
+  position: relative;
+  width: 200px;
+  text-align: right;
+  color: #4b5563;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.cono22 .skill22 .value22 {
+  position: relative;
+  width: 40px;
+  text-align: left;
+  color: #4b5563;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.cono22 .skill22 .percent22 {
+  position: relative;
+  width: calc(100% - 150px);
+  height: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background: #5e5c72;
+  box-shadow: inset 0 0 10px #000;
+  overflow: hidden;
+}
+.cono22 .skill22 .percent22 .progress22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  background: #f0edc5;
+  box-shadow: inset 0 0 2px #000;
+  animation: slide 1s linear infinite;
+}
+@keyframes animate {
+  form {
+    width: 0;
+  }
+}
+.cono223 {
+  position: relative;
+  width: 550px;
+  margin-left: -100px;
+}
+
+.cono223 .skill223 {
+  margin: 1px 0;
+  padding: 2px;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.cono223 .skill223 {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+.cono223 .skill223 .name223 {
+  position: relative;
+  width: 110px;
+  text-align: right;
+  color: #4b5563;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.cono223 .skill223 .value223 {
+  position: relative;
+  width: 40px;
+  text-align: left;
+  color: #4b5563;
+  margin-top: -2px;
+  text-transform: uppercase;
+}
+.cono223 .skill223 .percent223 {
+  position: relative;
+  width: calc(100% - 150px);
+  height: 9px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background: #5e5c72;
+  box-shadow: inset 0 0 10px #000;
+  overflow: hidden;
+}
+.cono223 .skill223 .percent223 .progress223 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: inset 0 0 2px #000;
+  height: 100%;
+  background: linear-gradient(90deg, #673ab7, #afe6ff);
+  background-color: #afe6ff;
+  background-size: 30px 30px;
+  border-radius: 200px;
+  animation: slide 1s linear infinite;
+}
+.skill22:nth-child(1) .percent22 .progress22 {
+  height: 100%;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.3) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-color: #afe6ff;
+  background-size: 30px 30px;
+  border-radius: 200px;
+  animation: slide 1s linear infinite;
+}
+.skill22:nth-child(2) .percent22 .progress22 {
+  height: 100%;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.3) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-color: #afe6ff;
+  background-size: 30px 30px;
+  border-radius: 200px;
+  animation: slide 1s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cono22 {
+    position: relative;
+    width: 380px;
+    margin-left: 10px;
+  }
+}
+.wrapper {
+  flex-direction: column;
+}
+.progress-bar {
+  height: 35px;
+  width: 500px;
+  border-radius: 200px;
+  background-color: #a0a0a0;
+  box-shadow: inset 0px 0px 10px 2px #000000a1;
+  margin-top: 30px;
+}
+.progress {
+  height: 100%;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.3) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-color: #673ab7;
+  background-size: 30px 30px;
+  border-radius: 200px;
+  animation: slide 1s linear infinite;
+}
+.percentage {
+  position: relative;
+  left: 250px;
+  top: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}
+
+.bar {
+  display: none;
+  margin-right: 10px;
+}
+.header-shihan {
+  display: inline-block;
+}
+
+@media all and (max-width: 768px) {
+  .bar {
+    display: block;
+    float: right;
+  }
+  .header-shihan {
+    display: block;
+  }
+}
+#particles-js {
+  height: 100vh;
+  background: #c2cad0;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  left: 0;
+}
+
+/* .wrapper {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 0;
+}
+.particles-js-canvas-el {
+  height: 100vh; !important;
+} */
