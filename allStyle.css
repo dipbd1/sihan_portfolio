@@ -61,11 +61,11 @@
   box-shadow: inset 0 0 2px #000;
   animation: slide 1s linear infinite;
 }
-@keyframes animate {
+/* @keyframes animate {
   form {
     width: 0;
   }
-}
+} */
 .cono223 {
   position: relative;
   width: 550px;
